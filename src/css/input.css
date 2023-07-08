@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#toggle:checked~label div#theme-toggle {
+  @apply translate-x-12 bg-slate-300;
+  transition: 0.2s;
+}
+
+#toggle:checked~label div#theme-toogle-bg {
+  @apply bg-sky-600;
+  transition: 0.2s;
+}
+
+#toggle2:checked~label div#theme-toggle {
+  @apply translate-x-6 bg-slate-300;
+  transition: 0.2s;
+}
+
+#toggle2:checked~label div#theme-toogle-bg {
+  @apply bg-sky-600;
+  transition: 0.2s;
+}
