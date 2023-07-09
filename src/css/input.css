@@ -2,22 +2,50 @@
 @tailwind components;
 @tailwind utilities;
 
-#toggle:checked~label div#theme-toggle {
-  @apply translate-x-12 bg-slate-300;
-  transition: 0.2s;
+@layer components {
+  .title {
+    @apply text-4xl font-semibold text-center m-5 dark:text-white;
+  }
+
+  .section-card {
+    @apply m-5 p-3 dark:bg-slate-800 rounded-lg bg-slate-100 dark:border dark:border-slate-500;
+  }
+
+  .section-title {
+    @apply text-2xl font-semibold dark:bg-slate-700 dark:text-white p-3 rounded-lg mb-4 bg-slate-200;
+  }
+
+  .gallery-text {
+    @apply flex sm:aspect-[4/2] md:aspect-[4/3];
+  }
+
+  .gallery-item {
+    @apply bg-white dark:bg-slate-700 aspect-[4/3] rounded-md overflow-hidden shadow hover:scale-95 duration-500;
+  }
+
+  .gallery-image {
+    @apply w-full h-full bg-cover group-hover:scale-125 duration-500;
+  }
 }
 
-#toggle:checked~label div#theme-toogle-bg {
-  @apply bg-sky-600;
-  transition: 0.2s;
-}
+@layer utilities {
+  #toggle:checked~label div#theme-toggle {
+    @apply translate-x-12 bg-slate-300;
+    transition: 0.2s;
+  }
 
-#toggle2:checked~label div#theme-toggle {
-  @apply translate-x-6 bg-slate-300;
-  transition: 0.2s;
-}
+  #toggle:checked~label div#theme-toogle-bg {
+    @apply bg-sky-600;
+    transition: 0.2s;
+  }
 
-#toggle2:checked~label div#theme-toogle-bg {
-  @apply bg-sky-600;
-  transition: 0.2s;
+  #toggle2:checked~label div#theme-toggle {
+    @apply translate-x-6 bg-slate-300;
+    transition: 0.2s;
+  }
+
+  #toggle2:checked~label div#theme-toogle-bg {
+    @apply bg-sky-600;
+    transition: 0.2s;
+  }
 }
