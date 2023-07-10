@@ -1,7 +1,23 @@
 # TailwindCSS Example
+
 [![Node.js CI](https://github.com/ikhsan3adi/TailwindCSS-Example/actions/workflows/node.js.yml/badge.svg)](https://github.com/ikhsan3adi/TailwindCSS-Example/actions/workflows/node.js.yml)
 
- My personal tailwind css learning progress
+My personal tailwind css learning progress
+
+- Spacing
+- Sizing
+- Color
+- Typography
+- Background image
+- Pseudo-class
+- Transform
+- Transition
+- Animation
+- Layout
+- Responsive design
+- Flexbox
+- Grid
+- Dark theme
 
 ## How To Run
 
