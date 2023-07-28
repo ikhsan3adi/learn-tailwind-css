@@ -79,9 +79,9 @@
     "yaml": "^2.3.1"
   },
   "scripts": {
-    "buildcss": "npx tailwindcss -i ./src/css/input.css -o ./public/css/style.css",
-    "css": "npx tailwindcss -i ./src/css/input.css -o ./public/css/style.css --watch",
-    "minicss": "npx tailwindcss -o ./public/css/style.css --minify"
+    "buildcss": "npx tailwindcss -i ./src/css/input.css -o ./docs/css/style.css",
+    "css": "npx tailwindcss -i ./src/css/input.css -o ./docs/css/style.css --watch",
+    "minicss": "npx tailwindcss -o ./docs/css/style.css --minify"
   },
   "keywords": [],
   "author": "",
