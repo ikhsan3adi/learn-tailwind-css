@@ -1,3 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+public/css/**/*.css linguist-generated=true
 public/css/**/*.css linguist-detectable=false
